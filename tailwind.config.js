@@ -65,6 +65,10 @@ module.exports = {
           "Segoe UI Symbol",
           "Noto Color Emoji",
         ],
+        convey: ["var(--font-sfprotext)", ...defaultTheme.fontFamily.sans],
+        sfProText: ["var(--font-sfprotext)", ...defaultTheme.fontFamily.sans],
+        menlo: ["var(--font-menlo)", ...defaultTheme.fontFamily.sans],
+        inputMono: ["var(--font-inputmono)", ...defaultTheme.fontFamily.sans],
       },
       borderWidth: {
         DEFAULT: "1px",
