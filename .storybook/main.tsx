@@ -1,4 +1,5 @@
 import type { StorybookConfig } from "@storybook/nextjs"
+
 const config: StorybookConfig = {
   stories: ["../src/components/**/*.stories.mdx", "../src/components/**/*.stories.@(js|jsx|ts|tsx)"],
   addons: ["@storybook/addon-links", "@storybook/addon-essentials", "@storybook/addon-interactions"],
@@ -18,5 +19,13 @@ const config: StorybookConfig = {
       propFilter: (prop) => (prop.parent ? !/node_modules/.test(prop.parent.fileName) : true),
     },
   },
+  // previewHead: (head) => `
+  //   ${head}
+  //   <style>
+  //     :root {
+  //       --font-sfprotext: ${sfProText.style.fontFamily};
+  //     }
+  //   </style>
+  // `,
 }
 export default config

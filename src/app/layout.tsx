@@ -4,7 +4,7 @@ import "./globals.css"
 
 // Font files can be colocated inside of `app`
 // https://tailwindcss.com/docs/font-weight
-const sfProText = localFont({
+export const sfProText = localFont({
   src: [
     {
       path: "./fonts/SFProText-Regular.ttf",
@@ -122,9 +122,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <link rel="icon" href="/favicon.ico" />
       </head>
-      <body className={`${sfProText.className} ${menlo.className} ${inputMono.className} font-inputMono`}>
-        {children}
-      </body>
+      <body className={`${sfProText.className} ${menlo.variable} ${inputMono.variable}`}>{children}</body>
     </html>
   )
 }
