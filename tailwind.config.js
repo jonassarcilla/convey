@@ -69,6 +69,7 @@ module.exports = {
         sfProText: ["var(--font-sfprotext)", ...defaultTheme.fontFamily.sans],
         menlo: ["var(--font-menlo)", ...defaultTheme.fontFamily.sans],
         inputMono: ["var(--font-inputmono)", ...defaultTheme.fontFamily.sans],
+        adelia: ["ADELIA", "cursive"],
       },
       borderWidth: {
         DEFAULT: "1px",
