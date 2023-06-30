@@ -4,7 +4,7 @@ import React from "react"
 import "../src/styles/tailwind.css"
 
 const withCustomFont: Decorator = (Story) => (
-  <div className="font-adelia">
+  <div className="font-body">
     <Story />
   </div>
 )

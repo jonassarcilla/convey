@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "ADELIA";
+  font-family: "InputMono";
   src: url("/fonts/InputMono-Regular.ttf");
 }
