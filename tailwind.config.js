@@ -20,7 +20,7 @@ module.exports = {
       body: ["var(--font-inputmono)", ...defaultTheme.fontFamily.sans],
       inputMono: ["var(--font-inputmono)", ...defaultTheme.fontFamily.sans],
       menlo: ["var(--font-menlo)", ...defaultTheme.fontFamily.sans],
-      sfProText: ["var(--font-sfprotext)", "SFProText"],
+      sfProText: ["var(--font-sfprotext)"],
     },
     extend: {
       colors: {
