@@ -16,24 +16,8 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      body: [
-        // "InputMono",
-        "var(--font-inputmono)",
-        // "ui-sans-serif",
-        // "system-ui",
-        // "-apple-system",
-        // "system-ui",
-        // "Segoe UI",
-        // "Roboto",
-        // "Helvetica Neue",
-        // "Arial",
-        // "Noto Sans",
-        // "sans-serif",
-        // "Apple Color Emoji",
-        // "Segoe UI Emoji",
-        // "Segoe UI Symbol",
-        // "Noto Color Emoji",
-      ],
+      storybook: ["InputMono", ...defaultTheme.fontFamily.sans],
+      body: ["var(--font-inputmono)", ...defaultTheme.fontFamily.sans],
     },
     extend: {
       colors: {

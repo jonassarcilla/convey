@@ -19,19 +19,15 @@ const config: StorybookConfig = {
       propFilter: (prop) => (prop.parent ? !/node_modules/.test(prop.parent.fileName) : true),
     },
   },
+  staticDirs: ["../public"],
   // previewHead: (head) => `
   //   ${head}
   //   <style>
-  //     :root {
-  //       --font-sfprotext: ${sfProText.style.fontFamily};
+  //     @font-face {
+  //       font-family: "InputMono";
+  //       src: url("/fonts/InputMono-Regular.ttf");
   //     }
   //   </style>
   // `,
-  staticDirs: [
-    {
-      from: "../public/fonts",
-      to: "public/fonts",
-    },
-  ],
 }
 export default config

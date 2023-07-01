@@ -122,7 +122,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <link rel="icon" href="/favicon.ico" />
       </head>
-      <body className={`${sfProText.variable} ${menlo.variable} ${inputMono.variable}`}>{children}</body>
+      <body className={`${sfProText.variable} ${menlo.variable} ${inputMono.variable} font-body`}>{children}</body>
     </html>
   )
 }
