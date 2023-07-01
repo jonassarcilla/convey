@@ -16,8 +16,11 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      storybook: ["InputMono", ...defaultTheme.fontFamily.sans],
+      storybook: ["var(--font-inputmono)", ...defaultTheme.fontFamily.sans],
       body: ["var(--font-inputmono)", ...defaultTheme.fontFamily.sans],
+      inputMono: ["var(--font-inputmono)", ...defaultTheme.fontFamily.sans],
+      menlo: ["var(--font-menlo)", ...defaultTheme.fontFamily.sans],
+      sfProText: ["var(--font-sfprotext)", "SFProText"],
     },
     extend: {
       colors: {
