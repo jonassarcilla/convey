@@ -10,10 +10,10 @@ const button = cva(
     "rounded-xl",
     "text-center",
     "border",
-    "border-blue-400",
+    "border-blue-700",
     "transition-colors",
     "delay-50",
-    // "font-sfProText",
+    "font-sfProText",
   ],
   {
     variants: {

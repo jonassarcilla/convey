@@ -1,6 +1,6 @@
 {
-  "projectName": "next-enterprise",
-  "projectOwner": "Blazity",
+  "projectName": "convey",
+  "projectOwner": "Moonheads Digital",
   "repoType": "github",
   "repoHost": "https://github.com",
   "files": [
@@ -11,8 +11,8 @@
   "commitConvention": "angular",
   "contributors": [
     {
-      "login": "bmstefanski",
-      "name": "Bart Stefanski",
+      "login": "jonassarcilla",
+      "name": "Jonas Rafael Sarcilla",
       "avatar_url": "https://avatars.githubusercontent.com/u/28964599?v=4",
       "profile": "https://bstefanski.com/",
       "contributions": [
