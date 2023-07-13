@@ -1,4 +1,4 @@
-# Next.js Enterprise Boilerplate
+# Convey - BPMN 2.0
 
 ![Project intro image](./project-logo.png)
 
