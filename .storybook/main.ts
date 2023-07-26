@@ -20,15 +20,6 @@ const config: StorybookConfig = {
     },
   },
   staticDirs: ["../public"],
-  // previewHead: (head) => `
-  //   ${head}
-  //   <style>
-  //     @font-face {
-  //       font-family: "InputMono";
-  //       src: url("/fonts/InputMono-Regular.ttf");
-  //     }
-  //   </style>
-  // `,
 }
 
 export default config
