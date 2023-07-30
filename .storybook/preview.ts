@@ -1,28 +1,64 @@
 import { type Preview } from "@storybook/react"
-import "../src/styles/tailwind.css"
+import "../src/styles/globals.css"
 
-const BREAKPOINTS_INT = {
-  xs: 375,
-  sm: 600,
-  md: 900,
-  lg: 1200,
-  xl: 1536,
+const DEFAULT_VIEWPORTS = {
+  "2xs": {
+    name: "Extra extra small",
+    styles: {
+      height: "320px",
+      width: "240px",
+    },
+    type: "mobile",
+  },
+  xs: {
+    name: "Extra Small",
+    styles: {
+      height: "568px",
+      width: "320px",
+    },
+    type: "mobile",
+  },
+  sm: {
+    name: "Small",
+    styles: {
+      height: "70vh",
+      width: "576px",
+    },
+    type: "mobile",
+  },
+  medium: {
+    name: "Medium",
+    styles: {
+      height: "1024px",
+      width: "768px",
+    },
+    type: "tablet",
+  },
+  large: {
+    name: "Large",
+    styles: {
+      height: "800px",
+      width: "1024px",
+    },
+    type: "desktop",
+  },
+  xl: {
+    name: "Extra Large",
+    styles: {
+      height: "800px",
+      width: "1280px",
+    },
+    type: "desktop",
+  },
+  "2xl": {
+    name: "Extra extra Large",
+    styles: {
+      height: "2048px",
+      width: "1536px",
+    },
+    type: "desktop",
+  },
 }
-
-const customViewports = Object.fromEntries(
-  Object.entries(BREAKPOINTS_INT).map(([key, val], idx) => {
-    return [
-      key,
-      {
-        name: key,
-        styles: {
-          width: `${val}px`,
-          height: `${(idx + 5) * 10}vh`,
-        },
-      },
-    ]
-  })
-)
 
 const preview: Preview = {
   parameters: {
@@ -30,8 +66,8 @@ const preview: Preview = {
       appDirectory: true,
     },
     viewport: {
-      viewports: { ...customViewports },
-      // defaultViewport: "xs",
+      viewports: { ...DEFAULT_VIEWPORTS },
+      defaultViewport: "xs",
     },
     layout: "fullscreen",
     actions: { argTypesRegex: "^on[A-Z].*" },

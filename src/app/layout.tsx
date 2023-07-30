@@ -2,7 +2,7 @@ import { Metadata } from "next"
 import localFont from "next/font/local"
 // eslint-disable-next-line
 import "@vscode/codicons/dist/codicon.css"
-import "./globals.css"
+import "../styles/globals.css"
 
 // Font files can be colocated inside of `app`
 // https://tailwindcss.com/docs/font-weight
