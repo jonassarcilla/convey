@@ -4,9 +4,6 @@
 
 @layer base {
   :root {
-    --color-primary: 255 115 179;
-    --color-secondary: 111 114 185;
-
     /* Base Colors */
     --color-base-01: #ffffff;
     --color-base-02: #f0f0f0;
@@ -86,6 +83,103 @@
     --color-seti-ignore: #41535b;
     --color-seti-white: #d4d7d6;
     --color-seti-gray: #6d8086;
+  }
+
+  /* Typography */
+  h1,
+  .h1 {
+    @apply font-sfProText text-[26px] font-[600] not-italic leading-normal;
+  }
+
+  h2,
+  .h2 {
+    @apply font-sfProText text-[14px] font-[500] not-italic leading-normal;
+  }
+
+  h3,
+  .h3 {
+    @apply font-sfProText text-[13px] font-[800] not-italic leading-normal;
+  }
+
+  h4,
+  .h4 {
+    @apply font-sfProText text-[11px] font-[700] uppercase not-italic leading-normal;
+  }
+
+  h5,
+  .h5 {
+    @apply font-sfProText text-[11px] font-[500] uppercase not-italic leading-normal;
+  }
+
+  h6,
+  .h6 {
+    @apply font-sfProText text-[11px] font-[800] not-italic leading-normal;
+  }
+
+  body,
+  .body-1 {
+    @apply font-sfProText text-[13px] font-[500] not-italic leading-normal;
+  }
+
+  .body-2 {
+    @apply font-sfProText text-[12px] font-[500] not-italic leading-normal;
+  }
+
+  .label-1 {
+    @apply font-sfProText text-[14px] font-[500] not-italic leading-[155.137%];
+  }
+
+  .label-2 {
+    @apply font-sfProText text-[12px] font-[700] not-italic leading-[155.137%];
+  }
+
+  .label-3 {
+    @apply font-sfProText text-[11px] font-[500] not-italic leading-[100%];
+  }
+
+  .markdown-h1 {
+    @apply font-sfProText text-[26px] font-[600] not-italic leading-normal;
+  }
+
+  .markdown-h2 {
+    @apply font-sfProText text-[20px] font-[600] not-italic leading-normal;
+  }
+
+  .markdown-h3 {
+    @apply font-sfProText text-[15px] font-[600] not-italic leading-normal;
+  }
+
+  .markdown-h4 {
+    @apply font-sfProText text-[13px] font-[800] not-italic leading-normal;
+  }
+
+  .markdown-h5 {
+    @apply font-sfProText text-[11px] font-[800] not-italic leading-normal;
+  }
+
+  .markdown-h6 {
+    @apply font-sfProText text-[9px] font-[800] not-italic leading-normal;
+  }
+
+  .markdown-paragraph {
+    @apply font-sfProText text-[13px] font-[500] not-italic leading-normal;
+  }
+
+  code,
+  .code-1 {
+    @apply font-menlo text-[12px] font-[400] not-italic leading-[150%];
+  }
+
+  .code-2 {
+    @apply font-menlo text-[12px] font-[700] not-italic leading-[151.328%];
+  }
+
+  .codicon {
+    @apply text-[16px] font-[400] uppercase not-italic leading-normal;
+  }
+
+  .seti {
+    @apply text-[20px] font-[400] uppercase not-italic leading-normal;
   }
 
   html,
