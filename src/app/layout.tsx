@@ -109,6 +109,33 @@ const inputMono = localFont({
   ],
 })
 
+const seti = localFont({
+  src: [
+    {
+      path: "./fonts/seti.ttf",
+    },
+  ],
+  variable: "--font-seti",
+  display: "swap",
+  fallback: [
+    "Inter",
+    "ui-sans-serif",
+    "system-ui",
+    "-apple-system",
+    "system-ui",
+    "Segoe UI",
+    "Roboto",
+    "Helvetica Neue",
+    "Arial",
+    "Noto Sans",
+    "sans-serif",
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji",
+  ],
+})
+
 export const metadata: Metadata = {
   title: "Convey",
   description: "BPMN 2.0",
@@ -124,7 +151,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <link rel="icon" href="/favicon.ico" />
       </head>
-      <body className={`${sfProText.variable} ${menlo.variable} ${inputMono.variable} font-body`}>{children}</body>
+      <body className={`${sfProText.variable} ${menlo.variable} ${inputMono.variable} ${seti.variable} font-body`}>
+        {children}
+      </body>
     </html>
   )
 }
