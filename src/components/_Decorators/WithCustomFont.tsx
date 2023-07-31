@@ -61,10 +61,17 @@ export const WithCustomFont: Decorator = (Story) => (
           font-weight: 100 400;
         }
 
+        @font-face {
+          font-family: "Seti";
+          src: url(/fonts/seti.ttf) format("truetype");
+          font-weight: 100 400;
+        }
+
         :root {
           --font-sfprotext: "SFProText";
           --font-menlo: "Menlo";
           --font-inputmono: "InputMono";
+          --font-seti: "seti";
         }
       `}
     </style>
