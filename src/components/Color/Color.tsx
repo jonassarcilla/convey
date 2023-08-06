@@ -6,7 +6,7 @@ import React from "react"
 const Color = () => {
   return (
     <>
-      <div className="flex h-[100vh] flex-row gap-16 bg-[#3E3E3F] p-16">
+      <div className="grid-cols grid h-[100vh] justify-items-center gap-16 bg-[#3E3E3F] p-16 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-10">
         <div className="flex flex-col gap-8">
           <div className="h-[128px] w-[128px] bg-base-01" />
           <div className="flex flex-col gap-4">
