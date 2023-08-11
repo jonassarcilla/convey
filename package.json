@@ -1,6 +1,6 @@
 {
   "name": "convey",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "sst bind next dev",
@@ -21,7 +21,7 @@
     "postinstall": "npx patch-package -y",
     "preinstall": "npx only-allow yarn",
     "coupling-graph": "npx madge --extensions js,jsx,ts,tsx,css,md,mdx ./ --exclude '.next|tailwind.config.js|reset.d.ts|prettier.config.js|postcss.config.js|playwright.config.ts|next.config.js|next-env.d.ts|instrumentation.ts|e2e/|README.md|.storybook/|.eslintrc.js' --image graph.svg",
-    "release": "semantic-release"
+    "release:local": "set NPM_TOKEN=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 && set GH_TOKEN=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 && npx semantic-release --no-ci"
   },
   "dependencies": {
     "@next/bundle-analyzer": "^13.3.0",
