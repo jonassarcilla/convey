@@ -25,7 +25,7 @@ const ColorItem = ({ category, colorKey, colorValue }: IColorItemProps) => {
       />
       <div className="flex flex-col gap-4">
         <h3 className="text-[24px] font-[700] capitalize leading-8 tracking-[-0.12px] text-[#ffffff] opacity-80">
-          {category} {colorKey}
+          {category !== "seti" ? `${category} ${colorKey}` : `${colorKey}`}
         </h3>
         <p className="text-[20px] font-[700] uppercase leading-[32px] tracking-[-0.1px] text-[#ffffff] opacity-80">
           {colorHex}
@@ -43,8 +43,10 @@ const Color = () => {
         const colorPalletes = item[1]
         return (
           <>
-            <div className="flex flex-col bg-[#3E3E3F] p-16">
-              <h3 className="text-[24px] capitalize text-[#fff]">{category}</h3>
+            <div className="flex flex-col bg-[#3E3E3F]">
+              <h3 className="px-12 pt-10 text-[24px] font-[700] capitalize leading-8 tracking-[-0.12px] text-[#ffffff]">
+                {category}
+              </h3>
               <div className="grid-cols grid h-full justify-items-center gap-16 bg-[#3E3E3F] p-16 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-10">
                 {Object.entries(colorPalletes)
                   .sort()
@@ -62,8 +64,10 @@ const Color = () => {
         const colorPalletes = item[1]
         return (
           <>
-            <div className="flex flex-col bg-[#3E3E3F] p-16">
-              <h3 className="text-[24px] capitalize text-[#fff]">{category}</h3>
+            <div className="flex flex-col bg-[#3E3E3F]">
+              <h3 className="px-12 pt-10 text-[24px] font-[700] capitalize leading-8 tracking-[-0.12px] text-[#ffffff]">
+                {category}
+              </h3>
               <div className="grid-cols grid h-full justify-items-center gap-16 bg-[#3E3E3F] p-16 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-10">
                 {Object.entries(colorPalletes)
                   .sort()

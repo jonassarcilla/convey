@@ -67,7 +67,7 @@ const preview: Preview = {
     },
     viewport: {
       viewports: { ...DEFAULT_VIEWPORTS },
-      defaultViewport: "xs",
+      // defaultViewport: "xs",
     },
     layout: "fullscreen",
     actions: { argTypesRegex: "^on[A-Z].*" },
