@@ -137,6 +137,10 @@
     @apply font-sfProText text-[11px] font-[500] not-italic leading-[100%];
   }
 
+  .label-4 {
+    @apply font-sfProText text-[9px] font-[700] not-italic leading-normal;
+  }
+
   .markdown-h1 {
     @apply font-sfProText text-[26px] font-[600] not-italic leading-normal;
   }
