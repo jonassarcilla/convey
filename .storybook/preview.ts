@@ -1,4 +1,5 @@
 import { type Preview } from "@storybook/react"
+import "@vscode/codicons/dist/codicon.css"
 import "../src/styles/globals.css"
 
 const DEFAULT_VIEWPORTS = {

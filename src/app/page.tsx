@@ -38,6 +38,7 @@ export default function Home() {
       <h1>heading 1</h1>
       <p className="label-1">label-1</p>
       <code className="code-1">Code</code>
+      <div className="codicon codicon-add"></div>
     </>
   )
 }
