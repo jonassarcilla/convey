@@ -17,8 +17,8 @@ const Icon = () => {
           {CODICONS.sort().map((icon: string) => {
             return (
               <>
-                <div className="flex flex-col">
-                  <div className={`codicon codicon-${icon} !text-[48px]`} />
+                <div key={icon} className="flex flex-col">
+                  <i className={`codicon codicon-${icon} !text-[48px]`} />
                   <label className="py-3 text-center">{icon}</label>
                 </div>
               </>
@@ -38,7 +38,7 @@ const Icon = () => {
             return (
               <>
                 <div key={`${iconKey}-${key}`} className="flex flex-col">
-                  <div className={`seti-icon seti-icon-${iconKey} !text-[48px]`} />
+                  <i className={`seti-icon seti-icon-${iconKey} !text-[48px]`} />
                   <label className="py-3 text-center">{iconKey}</label>
                 </div>
               </>
