@@ -1,6 +1,7 @@
 import { type Preview } from "@storybook/react"
 import "@vscode/codicons/dist/codicon.css"
 import "../src/styles/globals.css"
+import "../src/styles/seti-icon.css"
 
 const DEFAULT_VIEWPORTS = {
   "2xs": {

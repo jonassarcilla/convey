@@ -39,6 +39,8 @@ export default function Home() {
       <p className="label-1">label-1</p>
       <code className="code-1">Code</code>
       <div className="codicon codicon-add"></div>
+      <div className="seti-icon seti-icon-R"></div>
+      <div className="seti-icon seti-icon-apple"></div>
     </>
   )
 }

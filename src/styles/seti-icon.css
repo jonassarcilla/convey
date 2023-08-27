@@ -1,0 +1,517 @@
+.seti-icon[class*="seti-icon-"] {
+  font: normal normal normal 16px/1 seti;
+  display: inline-block;
+  text-decoration: none;
+  text-rendering: auto;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.seti-icon-R:before {
+  content: "\E001";
+}
+.seti-icon-apple:before {
+  content: "\E002";
+}
+.seti-icon-argdown:before {
+  content: "\E003";
+}
+.seti-icon-asm:before {
+  content: "\E004";
+}
+.seti-icon-audio:before {
+  content: "\E005";
+}
+.seti-icon-babel:before {
+  content: "\E006";
+}
+.seti-icon-bazel:before {
+  content: "\E007";
+}
+.seti-icon-bicep:before {
+  content: "\E008";
+}
+.seti-icon-bower:before {
+  content: "\E009";
+}
+.seti-icon-bsl:before {
+  content: "\E00A";
+}
+.seti-icon-c-sharp:before {
+  content: "\E00B";
+}
+.seti-icon-c:before {
+  content: "\E00C";
+}
+.seti-icon-cake:before {
+  content: "\E00D";
+}
+.seti-icon-cake_php:before {
+  content: "\E00E";
+}
+.seti-icon-checkbox-unchecked:before {
+  content: "\E00F";
+}
+.seti-icon-checkbox:before {
+  content: "\E010";
+}
+.seti-icon-cjsx:before {
+  content: "\E011";
+}
+.seti-icon-clock:before {
+  content: "\E012";
+}
+.seti-icon-clojure:before {
+  content: "\E013";
+}
+.seti-icon-code-climate:before {
+  content: "\E014";
+}
+.seti-icon-code-search:before {
+  content: "\E015";
+}
+.seti-icon-coffee:before {
+  content: "\E016";
+}
+.seti-icon-coffee_erb:before {
+  content: "\E017";
+}
+.seti-icon-coldfusion:before {
+  content: "\E018";
+}
+.seti-icon-config:before {
+  content: "\E019";
+}
+.seti-icon-cpp:before {
+  content: "\E01A";
+}
+.seti-icon-crystal:before {
+  content: "\E01B";
+}
+.seti-icon-crystal_embedded:before {
+  content: "\E01C";
+}
+.seti-icon-css:before {
+  content: "\E01D";
+}
+.seti-icon-csv:before {
+  content: "\E01E";
+}
+.seti-icon-cu:before {
+  content: "\E01F";
+}
+.seti-icon-d:before {
+  content: "\E020";
+}
+.seti-icon-dart:before {
+  content: "\E021";
+}
+.seti-icon-db:before {
+  content: "\E022";
+}
+.seti-icon-default:before {
+  content: "\E023";
+}
+.seti-icon-deprecation-cop:before {
+  content: "\E024";
+}
+.seti-icon-docker:before {
+  content: "\E025";
+}
+.seti-icon-editorconfig:before {
+  content: "\E026";
+}
+.seti-icon-ejs:before {
+  content: "\E027";
+}
+.seti-icon-elixir:before {
+  content: "\E028";
+}
+.seti-icon-elixir_script:before {
+  content: "\E029";
+}
+.seti-icon-elm:before {
+  content: "\E02A";
+}
+.seti-icon-error:before {
+  content: "\E02B";
+}
+.seti-icon-eslint:before {
+  content: "\E02C";
+}
+.seti-icon-ethereum:before {
+  content: "\E02D";
+}
+.seti-icon-f-sharp:before {
+  content: "\E02E";
+}
+.seti-icon-favicon:before {
+  content: "\E02F";
+}
+.seti-icon-firebase:before {
+  content: "\E030";
+}
+.seti-icon-firefox:before {
+  content: "\E031";
+}
+.seti-icon-folder:before {
+  content: "\E032";
+}
+.seti-icon-font:before {
+  content: "\E033";
+}
+.seti-icon-git:before {
+  content: "\E034";
+}
+.seti-icon-git_folder:before {
+  content: "\E035";
+}
+.seti-icon-git_ignore:before {
+  content: "\E036";
+}
+.seti-icon-github:before {
+  content: "\E037";
+}
+.seti-icon-gitlab:before {
+  content: "\E038";
+}
+.seti-icon-go:before {
+  content: "\E039";
+}
+.seti-icon-go2:before {
+  content: "\E03A";
+}
+.seti-icon-godot:before {
+  content: "\E03B";
+}
+.seti-icon-gradle:before {
+  content: "\E03C";
+}
+.seti-icon-grails:before {
+  content: "\E03D";
+}
+.seti-icon-graphql:before {
+  content: "\E03E";
+}
+.seti-icon-grunt:before {
+  content: "\E03F";
+}
+.seti-icon-gulp:before {
+  content: "\E040";
+}
+.seti-icon-hacklang:before {
+  content: "\E041";
+}
+.seti-icon-haml:before {
+  content: "\E042";
+}
+.seti-icon-happenings:before {
+  content: "\E043";
+}
+.seti-icon-haskell:before {
+  content: "\E044";
+}
+.seti-icon-haxe:before {
+  content: "\E045";
+}
+.seti-icon-heroku:before {
+  content: "\E046";
+}
+.seti-icon-hex:before {
+  content: "\E047";
+}
+.seti-icon-html:before {
+  content: "\E048";
+}
+.seti-icon-html_erb:before {
+  content: "\E049";
+}
+.seti-icon-ignored:before {
+  content: "\E04A";
+}
+.seti-icon-illustrator:before {
+  content: "\E04B";
+}
+.seti-icon-image:before {
+  content: "\E04C";
+}
+.seti-icon-info:before {
+  content: "\E04D";
+}
+.seti-icon-ionic:before {
+  content: "\E04E";
+}
+.seti-icon-jade:before {
+  content: "\E04F";
+}
+.seti-icon-java:before {
+  content: "\E050";
+}
+.seti-icon-javascript:before {
+  content: "\E051";
+}
+.seti-icon-jenkins:before {
+  content: "\E052";
+}
+.seti-icon-jinja:before {
+  content: "\E053";
+}
+.seti-icon-js_erb:before {
+  content: "\E054";
+}
+.seti-icon-json:before {
+  content: "\E055";
+}
+.seti-icon-julia:before {
+  content: "\E056";
+}
+.seti-icon-karma:before {
+  content: "\E057";
+}
+.seti-icon-kotlin:before {
+  content: "\E058";
+}
+.seti-icon-less:before {
+  content: "\E059";
+}
+.seti-icon-license:before {
+  content: "\E05A";
+}
+.seti-icon-liquid:before {
+  content: "\E05B";
+}
+.seti-icon-livescript:before {
+  content: "\E05C";
+}
+.seti-icon-lock:before {
+  content: "\E05D";
+}
+.seti-icon-lua:before {
+  content: "\E05E";
+}
+.seti-icon-makefile:before {
+  content: "\E05F";
+}
+.seti-icon-markdown:before {
+  content: "\E060";
+}
+.seti-icon-maven:before {
+  content: "\E061";
+}
+.seti-icon-mdo:before {
+  content: "\E062";
+}
+.seti-icon-mustache:before {
+  content: "\E063";
+}
+.seti-icon-new-file:before {
+  content: "\E064";
+}
+.seti-icon-nim:before {
+  content: "\E065";
+}
+.seti-icon-notebook:before {
+  content: "\E066";
+}
+.seti-icon-npm:before {
+  content: "\E067";
+}
+.seti-icon-npm_ignored:before {
+  content: "\E068";
+}
+.seti-icon-nunjucks:before {
+  content: "\E069";
+}
+.seti-icon-ocaml:before {
+  content: "\E06A";
+}
+.seti-icon-odata:before {
+  content: "\E06B";
+}
+.seti-icon-pddl:before {
+  content: "\E06C";
+}
+.seti-icon-pdf:before {
+  content: "\E06D";
+}
+.seti-icon-perl:before {
+  content: "\E06E";
+}
+.seti-icon-photoshop:before {
+  content: "\E06F";
+}
+.seti-icon-php:before {
+  content: "\E070";
+}
+.seti-icon-pipeline:before {
+  content: "\E071";
+}
+.seti-icon-plan:before {
+  content: "\E072";
+}
+.seti-icon-platformio:before {
+  content: "\E073";
+}
+.seti-icon-powershell:before {
+  content: "\E074";
+}
+.seti-icon-prisma:before {
+  content: "\E075";
+}
+.seti-icon-project:before {
+  content: "\E076";
+}
+.seti-icon-prolog:before {
+  content: "\E077";
+}
+.seti-icon-pug:before {
+  content: "\E078";
+}
+.seti-icon-puppet:before {
+  content: "\E079";
+}
+.seti-icon-purescript:before {
+  content: "\E07A";
+}
+.seti-icon-python:before {
+  content: "\E07B";
+}
+.seti-icon-rails:before {
+  content: "\E07C";
+}
+.seti-icon-react:before {
+  content: "\E07D";
+}
+.seti-icon-reasonml:before {
+  content: "\E07E";
+}
+.seti-icon-rescript:before {
+  content: "\E07F";
+}
+.seti-icon-rollup:before {
+  content: "\E080";
+}
+.seti-icon-ruby:before {
+  content: "\E081";
+}
+.seti-icon-rust:before {
+  content: "\E082";
+}
+.seti-icon-salesforce:before {
+  content: "\E083";
+}
+.seti-icon-sass:before {
+  content: "\E084";
+}
+.seti-icon-sbt:before {
+  content: "\E085";
+}
+.seti-icon-scala:before {
+  content: "\E086";
+}
+.seti-icon-search:before {
+  content: "\E087";
+}
+.seti-icon-settings:before {
+  content: "\E088";
+}
+.seti-icon-shell:before {
+  content: "\E089";
+}
+.seti-icon-slim:before {
+  content: "\E08A";
+}
+.seti-icon-smarty:before {
+  content: "\E08B";
+}
+.seti-icon-spring:before {
+  content: "\E08C";
+}
+.seti-icon-stylelint:before {
+  content: "\E08D";
+}
+.seti-icon-stylus:before {
+  content: "\E08E";
+}
+.seti-icon-sublime:before {
+  content: "\E08F";
+}
+.seti-icon-svelte:before {
+  content: "\E090";
+}
+.seti-icon-svg:before {
+  content: "\E091";
+}
+.seti-icon-swift:before {
+  content: "\E092";
+}
+.seti-icon-terraform:before {
+  content: "\E093";
+}
+.seti-icon-tex:before {
+  content: "\E094";
+}
+.seti-icon-time-cop:before {
+  content: "\E095";
+}
+.seti-icon-todo:before {
+  content: "\E096";
+}
+.seti-icon-tsconfig:before {
+  content: "\E097";
+}
+.seti-icon-twig:before {
+  content: "\E098";
+}
+.seti-icon-typescript:before {
+  content: "\E099";
+}
+.seti-icon-vala:before {
+  content: "\E09A";
+}
+.seti-icon-video:before {
+  content: "\E09B";
+}
+.seti-icon-vue:before {
+  content: "\E09C";
+}
+.seti-icon-wasm:before {
+  content: "\E09D";
+}
+.seti-icon-wat:before {
+  content: "\E09E";
+}
+.seti-icon-webpack:before {
+  content: "\E09F";
+}
+.seti-icon-wgt:before {
+  content: "\E0A0";
+}
+.seti-icon-windows:before {
+  content: "\E0A1";
+}
+.seti-icon-word:before {
+  content: "\E0A2";
+}
+.seti-icon-xls:before {
+  content: "\E0A3";
+}
+.seti-icon-xml:before {
+  content: "\E0A4";
+}
+.seti-icon-yarn:before {
+  content: "\E0A5";
+}
+.seti-icon-yml:before {
+  content: "\E0A6";
+}
+.seti-icon-zig:before {
+  content: "\E0A7";
+}
+.seti-icon-zip:before {
+  content: "\E0A8";
+}

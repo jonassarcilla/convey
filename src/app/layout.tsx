@@ -4,6 +4,7 @@ import localFont from "next/font/local"
 import "@vscode/codicons/dist/codicon.css"
 import React from "react"
 import "../styles/globals.css"
+import "../styles/seti-icon.css"
 
 // Font files can be colocated inside of `app`
 // https://tailwindcss.com/docs/font-weight

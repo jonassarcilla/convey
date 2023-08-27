@@ -31,6 +31,7 @@ module.exports = {
       inputMono: ["var(--font-inputmono)", ...defaultTheme.fontFamily.sans],
       menlo: ["var(--font-menlo)", ...defaultTheme.fontFamily.sans],
       sfProText: ["var(--font-sfprotext)"],
+      seti: ["var(--font-seti)"],
     },
     colors: {
       ...BASECOLOR,
