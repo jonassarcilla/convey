@@ -81,7 +81,7 @@ export const TYPOGRAPHY = {
     title: "Markdown H2",
     description: "20px Normal",
     useCase: "Markdown",
-    className: "font-sfProText text-[20px] font-[600] not-italic leading-normal",
+    className: "font-sfProText font-[600] not-italic leading-normal",
   },
   "markdown-h3": {
     title: "Markdown H3",
@@ -126,13 +126,15 @@ export const TYPOGRAPHY = {
     className: "font-menlo text-[12px] font-[700] not-italic leading-[151.328%]",
   },
   codicon: {
-    title: "",
+    title:
+      "<i class='codicon codicon-add'></i><i class='codicon codicon-archive'></i><i class='codicon codicon-arrow-both'></i><i class='codicon codicon-arrow-down'></i><i class='codicon codicon-arrow-left'></i><i class='codicon codicon-arrow-right'></i>",
     description: "16px Codicon",
     useCase: "VS Code Icons",
     className: "text-[16px] font-[400] uppercase not-italic leading-normal",
   },
   seti: {
-    title: "",
+    title:
+      "<i class='seti-icon seti-icon-babel'></i><i class='seti-icon seti-icon-bower'></i><i class='seti-icon seti-icon-c-sharp'></i><i class='seti-icon seti-icon-coffee'></i><i class='seti-icon seti-icon-clojure'></i><i class='seti-icon seti-icon-coldfusion'></i><i class='seti-icon seti-icon-grails'></i>",
     description: "20px Seti",
     useCase: "Seti File Icons",
     className: "text-[20px] font-[400] uppercase not-italic leading-normal",

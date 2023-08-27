@@ -4,7 +4,7 @@ import { WithCustomFont } from "../_Decorators/WithCustomFont"
 import Typography from "./Typography"
 
 const meta: Meta<typeof Typography> = {
-  title: "Typography",
+  title: "Style Guides/Typography",
   component: Typography,
   decorators: [WithCustomFont],
 }

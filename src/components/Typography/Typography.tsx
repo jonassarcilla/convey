@@ -16,10 +16,20 @@ const Typography = () => {
             {Object.entries(TYPOGRAPHY).map((item) => {
               const itemId = item[0]
               const { title, description, useCase } = item[1]
+
+              const isHTML = /<\/?[a-z][\s\S]*>/i.test(title)
+              if (isHTML) {
+                console.log("title", title)
+              }
+
               return (
                 <>
                   <li key={itemId} className="flex h-[40px] flex-row items-center gap-x-4 py-8">
-                    <div className={`w-[350px] flex-none ${itemId}`}>{title}</div>
+                    {isHTML ? (
+                      <div className={`w-[350px] flex-none ${itemId}`} dangerouslySetInnerHTML={{ __html: title }} />
+                    ) : (
+                      <div className={`w-[350px] flex-none ${itemId}`}>{title}</div>
+                    )}
                     <div className="tracker-[-0.06px] w-[213px] flex-none items-center font-inter text-[12px] font-normal not-italic leading-normal">
                       {description}
                     </div>

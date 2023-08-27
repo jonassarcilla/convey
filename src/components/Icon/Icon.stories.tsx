@@ -4,7 +4,7 @@ import { WithCustomFont } from "../_Decorators/WithCustomFont"
 import Icon from "./Icon"
 
 const meta: Meta<typeof Icon> = {
-  title: "Icon",
+  title: "Style Guides/Icon",
   component: Icon,
   decorators: [WithCustomFont],
 }

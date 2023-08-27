@@ -1,11 +1,10 @@
 import type { Meta, StoryObj } from "@storybook/react"
-import React from "react"
 import { WithCustomFont } from "../_Decorators/WithCustomFont"
 // eslint-disable-next-line import/order
 import Color from "./Color"
 
 const meta: Meta<typeof Color> = {
-  title: "Color",
+  title: "Style Guides/Color",
   component: Color,
   //   args: {
   //     intent: "primary",
