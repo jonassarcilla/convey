@@ -34,3 +34,5 @@ yarn-error.log*
 
 .open-next/
 .sst/
+
+public/docs/storybook-static/
