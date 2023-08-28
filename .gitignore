@@ -36,3 +36,4 @@ yarn-error.log*
 .sst/
 
 public/docs/storybook-static/
+/storybook-static/
