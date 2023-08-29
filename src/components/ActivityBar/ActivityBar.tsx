@@ -5,7 +5,7 @@ import React from "react"
 // This is a compound components
 // Activate figma
 const ActivityBar = () => {
-  return <></>
+  return <>ActivityBar</>
 }
 
 export default React.memo(ActivityBar)
