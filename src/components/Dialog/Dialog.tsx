@@ -4,7 +4,7 @@ import React from "react"
 // {}: IDialogProps
 
 const Dialog = () => {
-  return <></>
+  return <>Dialog</>
 }
 
 export default React.memo(Dialog)

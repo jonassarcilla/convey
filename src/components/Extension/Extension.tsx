@@ -5,7 +5,7 @@ import React from "react"
 // {}: IExtensionProps
 
 const Extension = () => {
-  return <></>
+  return <>Extension</>
 }
 
 export default React.memo(Extension)

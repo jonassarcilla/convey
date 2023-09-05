@@ -4,7 +4,7 @@ import React from "react"
 // {}: IEditorProps
 
 const Editor = () => {
-  return <></>
+  return <>Editor</>
 }
 
 export default React.memo(Editor)
