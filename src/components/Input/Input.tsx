@@ -4,7 +4,7 @@ import React from "react"
 // {}: IInputProps
 
 const Input = () => {
-  return <></>
+  return <>Input</>
 }
 
 export default React.memo(Input)

@@ -4,7 +4,7 @@ import React from "react"
 // {}: INotebookProps
 
 const Notebook = () => {
-  return <></>
+  return <>Notebook</>
 }
 
 export default React.memo(Notebook)

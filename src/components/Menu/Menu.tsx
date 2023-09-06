@@ -4,7 +4,7 @@ import React from "react"
 // {}: IMenuProps
 
 const Menu = () => {
-  return <></>
+  return <>Menu</>
 }
 
 export default React.memo(Menu)

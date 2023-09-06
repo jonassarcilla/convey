@@ -4,7 +4,7 @@ import React from "react"
 // {}: ITabProps
 
 const Tab = () => {
-  return <></>
+  return <>Tab</>
 }
 
 export default React.memo(Tab)

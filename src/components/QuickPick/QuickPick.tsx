@@ -4,7 +4,7 @@ import React from "react"
 // {}: IQuickPickProps
 
 const QuickPick = () => {
-  return <></>
+  return <>QuickPick</>
 }
 
 export default React.memo(QuickPick)

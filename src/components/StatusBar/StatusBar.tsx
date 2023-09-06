@@ -4,7 +4,7 @@ import React from "react"
 // {}: IStatusBarProps
 
 const StatusBar = () => {
-  return <></>
+  return <>StatusBar</>
 }
 
 export default React.memo(StatusBar)

@@ -4,7 +4,7 @@ import React from "react"
 // {}: ITemplateProps
 
 const Template = () => {
-  return <></>
+  return <>Template</>
 }
 
 export default React.memo(Template)

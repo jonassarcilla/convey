@@ -5,7 +5,7 @@ import React from "react"
 // {}: INotificationProps
 
 const Notification = () => {
-  return <></>
+  return <>Notification</>
 }
 
 export default React.memo(Notification)

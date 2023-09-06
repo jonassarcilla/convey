@@ -4,7 +4,7 @@ import React from "react"
 // {}: ISuggestWidgetProps
 
 const SuggestWidget = () => {
-  return <></>
+  return <>SuggestWidget</>
 }
 
 export default React.memo(SuggestWidget)

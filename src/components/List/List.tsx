@@ -4,7 +4,7 @@ import React from "react"
 // {}: IListProps
 
 const List = () => {
-  return <></>
+  return <>List</>
 }
 
 export default React.memo(List)

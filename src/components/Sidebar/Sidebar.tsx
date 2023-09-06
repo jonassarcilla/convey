@@ -4,7 +4,7 @@ import React from "react"
 // {}: ISidebarProps
 
 const Sidebar = () => {
-  return <></>
+  return <>Sidebar</>
 }
 
 export default React.memo(Sidebar)

@@ -5,7 +5,7 @@ import React from "react"
 // {}: IPanelProps
 
 const Panel = () => {
-  return <></>
+  return <>Panel</>
 }
 
 export default React.memo(Panel)

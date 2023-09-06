@@ -5,7 +5,7 @@ import React from "react"
 // {}: ILabelProps
 
 const Label = () => {
-  return <></>
+  return <>Label</>
 }
 
 export default React.memo(Label)
